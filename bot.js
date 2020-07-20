@@ -18,6 +18,11 @@ client.on("guildMemberRemove", (member) => {
 
 /////////////////////////MUSICOLOGO/////////////////////////////
 
+client.on('message', msg => {
+  if (msg.content === '!test') {
+    msg.reply('Testing...');
+  }
+};
 
 /////////////////////////ENSAMBLADOR////////////////////////////
 
